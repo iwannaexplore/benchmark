@@ -1,0 +1,79 @@
+# Build Folders
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+.idea/*
+# Build Results
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]*/
+[Aa][Rr][Mm]64*/
+
+# NuGet Packages
+packages/
+*.nupkg
+!*.nuspec
+!packages/build/
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017/2019 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# BenchmarkDotNet Artifacts
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/*.csproj.dotsettings
+*.kproj
+*.xproj
+
+# Tooling
+._*
+*.svd
+*.opensdf
+*.userprefs
+*.dap
+
+# OS generated files
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude all configuration files that may contain sensitive information
+**/appsettings*.json
+**/web.config
+**/app.config
+**/secrets.config
+
+# Exclude explicit NuGet.Config files (Uncomment if required)
+# !NuGet.Config
